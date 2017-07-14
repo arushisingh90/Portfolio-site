@@ -1,0 +1,46 @@
+* {
+ 	font-family: 'Lato', sans-serif;
+ 	color: #2d3c49;
+ }
+
+ 
+.logo {
+	color: #FFFF00;
+	padding-top: 22px;
+}
+
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+
+.heading {
+  	font-size: 60px;
+  	font-weight: normal;
+  }
+
+
+.sub-heading {
+	color: #7d97ad;
+}
+
+
+.hr-bold {
+	border: none;
+    height: 2px;
+    color: #7d97ad;
+    background-color: #7d97ad;
+}
+
+
+.img-center {
+	margin: 0 auto;
+}
+
+
+ @media only screen and (max-width: 992px) {
+ 	.heading {
+ 		font-size: 40px;
+ 	}
+ }
