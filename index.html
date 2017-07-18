@@ -4,16 +4,16 @@
 		<title>Arushi's Portfolio</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
-		<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+		<script src="js/jquery-3.2.1.min.js" defer></script>
 		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
-		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js" defer></script>
 		<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
 	</head>
 	<body>
-		<div class="container">
-			<div class="row">
+		<section class="container">
+			<header class="row">
 				<div class="col-xs-6">
 					<i class="fa fa-first-order fa-5x logo"></i>
 				</div>
@@ -21,35 +21,41 @@
 					<h1 class="align-right heading">Arushi Singh</h1>
 					<h4>Web Application Developer</h4>
 				</div>
-			</div>
-			<hr class="hr-bold">
+			</header>
 			<div class="row">
-				<div class="col-md-12">
-					<img src="images/img_landing_large.jpg" alt="Mountains and buildings" srcset="images/img_landing_large.jpg 1920w, images/img_landing_small.jpg 854w, images/img_landing_mobile.jpg 480w" class="img-responsive img-center" sizes="100vw">
+				<div class="col-sm-12">
+					<hr class="hr-bold">
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-md-12">
-					<h2 class="sub-heading">Featured Work</h2>
+			<section id="main_content">
+				<div class="row">
+					<div class="col-md-12">
+						<img src="images/img_landing_large.jpg" alt="Mountains and buildings" srcset="images/img_landing_large.jpg 1920w, images/img_landing_small.jpg 854w, images/img_landing_mobile.jpg 480w" class="img-responsive img-center" sizes="100vw">
+					</div>
 				</div>
-			</div>
-			<div class="row">
-      			<div class="col-md-4 text-center">
-        			<img class="img-responsive img-center" src="images/img_proj1.jpg" alt="featuring html">
-        			<h3 class="uppercase">html</h3>
-        			<p><a href="https://github.com/arushisingh90/udacity-mockup-article" target="_blank">Link to project</a></p>
-      			</div>
-      			<div class="col-md-4 text-center">
-        			<img class="img-responsive img-center" src="images/img_proj2.jpg" alt="featuring html and css">
-        			<h3 class="uppercase">html &amp; css</h3>
-        			<p><a href="https://github.com/arushisingh90/fend-animal-trading-cards-master" target="_blank">Link to project</a></p>
-      			</div>
-      			<div class="col-md-4 text-center">
-        			<img class="img-responsive img-center" src="images/img_proj3.jpg" alt="Coming soon">
-        			<h3 class="uppercase">Coming Soon</h3>
-        			<p><a href="">In the works</a></p>
-      			</div>
-    		</div>
-		</div>
+				<div class="row">
+					<div class="col-md-12">
+						<h2 class="sub-heading">Featured Work</h2>
+					</div>
+				</div>
+				<div class="row">
+      				<div class="col-md-4 text-center">
+        				<img class="img-responsive img-center" src="images/img_proj1.jpg" alt="featuring html">
+        				<h3 class="uppercase">html</h3>
+        				<p><a href="https://github.com/arushisingh90/udacity-mockup-article" target="_blank">	Link to project</a></p>
+      				</div>
+      				<div class="col-md-4 text-center">
+        				<img class="img-responsive img-center" src="images/img_proj2.jpg" alt="featuring html and css">
+        				<h3 class="uppercase">html &amp; css</h3>
+        				<p><a href="https://github.com/arushisingh90/fend-animal-trading-cards-master" target="_blank">Link to project</a></p>
+      				</div>
+      				<div class="col-md-4 text-center">
+        				<img class="img-responsive img-center" src="images/img_proj3.jpg" alt="Coming soon">
+        				<h3 class="uppercase">Coming Soon</h3>
+        				<p><a href="">In the works</a></p>
+      				</div>
+    			</div>
+    		</section>
+		</section>
 	</body>
 </html>
